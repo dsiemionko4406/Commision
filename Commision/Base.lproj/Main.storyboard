@@ -102,12 +102,12 @@
                     </view>
                     <connections>
                         <outlet property="CommissionPayTextField" destination="7gs-Ag-wMO" id="fLm-5t-dAy"/>
-                        <outlet property="TotalPayLabel" destination="Q77-uk-zha" id="2Ht-3j-Iw5"/>
+                        <outlet property="TotalPayLabel" destination="Q77-uk-zha" id="G52-Sc-ihh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="167" y="-191"/>
+            <point key="canvasLocation" x="-25" y="-222"/>
         </scene>
     </scenes>
 </document>

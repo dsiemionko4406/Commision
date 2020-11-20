@@ -13,13 +13,20 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var CommissionPayTextField: UITextField!
     @IBOutlet weak var TotalPayLabel: UILabel!
+    
+    let basePay = 500
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
     @IBAction func WhenCalculateButtonPressed(_ sender: Any) {
+        let commissionPayString  =  CommissionPayTextField.text!
+        let commissionPay = Double(commissionPayString)!
         
+        let totalPay = Double(basePay) + commissionPay
+        
+        TotalPayLabel = "\(totalPay)"
     }
     
 }
