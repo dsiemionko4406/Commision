@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         let totalPay = Double(basePay) + commissionPay
         
-        TotalPayLabel = "\(totalPay)"
+        TotalPayLabel.text = "\(totalPay)"
     }
     
 }
