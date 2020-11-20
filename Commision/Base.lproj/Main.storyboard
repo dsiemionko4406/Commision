@@ -22,15 +22,15 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="36"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular Pay=" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exW-Qf-6tG">
-                                                <rect key="frame" x="0.0" y="0.0" width="295.66666666666669" height="36"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="277" height="36"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$500.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaM-Lh-6W7">
-                                                <rect key="frame" x="295.66666666666669" y="0.0" width="118.33333333333331" height="36"/>
+                                                <rect key="frame" x="277" y="0.0" width="137" height="36"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="118.33" id="k46-Rh-1oy"/>
+                                                    <constraint firstAttribute="width" constant="137" id="k46-Rh-1oy"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -52,7 +52,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="118.33" id="Dhj-pw-ZhA"/>
                                                 </constraints>
-                                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
@@ -62,15 +61,15 @@
                                         <rect key="frame" x="0.0" y="80" width="414" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Pay=" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0C-CQ-Rpo">
-                                                <rect key="frame" x="0.0" y="0.0" width="295.66666666666669" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="277" height="50"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q77-uk-zha">
-                                                <rect key="frame" x="295.66666666666669" y="0.0" width="118.33333333333331" height="50"/>
+                                                <rect key="frame" x="277" y="0.0" width="137" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="118.33" id="GId-CC-NoF"/>
+                                                    <constraint firstAttribute="width" constant="137" id="GId-CC-NoF"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
